@@ -1,14 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <title>My Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="src/output.css" rel="stylesheet">
+  <title>Lulu Wilson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <header>
+    <nav>
+      <h1>Lulu Wilson</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I'm Lulu Wilson.</h2>
+    <h3>CS & Math Student | Future Software Engineer</h3>
+  </section>
+
+  <div class="profile-pic">
+    <img src="pfp.jpg" alt="Lulu Wilson" />
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        I am a third-year student at the University of Virginia pursuing a
+        Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics.
+        I am passionate about mathematics, statistical modeling, software engineering, 
+        complex problem solving in real-world settings, and learning. Outside of academics,
+        I love being in nature, crocheting, and doing theatre (specifically with UVA's First Year Players)! 
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Wikipedia Path Finder</h3>
+      <p>Wikipedia Path Finder is a command-line application that computes the shortest link path 
+        between two Wikipedia pages. It preprocesses Wikipedia link data into a graph using rustworkx 
+        and applies Dijkstra’s algorithm to efficiently determine the minimum number of hops between 
+        pages, recreating the logic behind the classic Wikipedia path game.
+      </p>
+      <a href="https://github.com/lulukayw/wiki-game" target="_blank">
+        View on GitHub
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>HooWantsSome</h3>
+      <p>Hoowantsome is a Django-based web application built by a five-person team to promote sustainable 
+        item exchange among UVA students. Inspired by platforms like Facebook Marketplace and Depop, 
+        the app supports authentication, messaging, listings, and moderation; I focused on global notifications, 
+        quality assurance and testing (acting as QA lead), and UI development to ensure a reliable user experience.
+      </p>
+      <a href="https://github.com/lulukayw/hoowantssome" target="_blank">
+        View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skills-card">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>C</li>
+          <li>SQL</li>
+          <li>HTML / CSS</li>
+        </ul>
+      </div>
+
+      <div class="skills-card">
+        <h3>Technologies & Tools</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>REST APIs</li>
+          <li>Django</li>
+          <li>JUnit</li>
+          <li>LaTeX</li>
+        </ul>
+      </div>
+
+      <div class="skills-card">
+        <h3>Mathematics</h3>
+        <ul>
+          <li>Linear Algebra</li>
+          <li>Discrete Mathematics</li>
+          <li>Probability & Statistics</li>
+          <li>Algorithms Analysis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <p>Email: rjb7gs@virginia.edu</p>
+      <p>
+        <a href="https://github.com/lulukayw">GitHub</a> |
+        <a href="https://www.linkedin.com/in/lulu-wilson/">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Lulu Wilson</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
