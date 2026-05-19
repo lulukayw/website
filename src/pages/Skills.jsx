@@ -4,15 +4,47 @@ function Skills() {
     const skillCategories = [
         {
             title: 'Programming Languages',
-            skills: ['Python', 'Java', 'JavaScript', 'C', 'SQL', 'HTML / CSS']
+            skills: ['Python',
+                'Java',
+                'JavaScript',
+                'C',
+                'SQL',
+                'HTML / CSS',
+                'Assembly (x86/ARM basics)']
         },
         {
             title: 'Technologies & Tools',
-            skills: ['React', 'Git & GitHub', 'REST APIs', 'Django', 'JUnit', 'LaTeX']
+            skills: ['React', 'Git & GitHub',
+                'REST APIs',
+                'Django',
+                'JUnit',
+                'LaTeX',
+                'Docker (basic)',
+                'Node.js',
+                'CI/CD Concepts',
+                'Agile / Scrum']
+        },
+        {
+            title: 'Security & Cryptography',
+            skills: ['Cryptographic Protocols',
+                'Provable Security & Simulation-Based Proofs',
+                'Adversarial Modeling & Security Reductions',
+                'Public-Key Cryptography',
+                'Hash Functions & Digital Signatures',
+                'Blockchain Fundamentals and Applications',
+                'Network Security Basics'
+            ]
         },
         {
             title: 'Mathematics',
-            skills: ['Linear Algebra', 'Discrete Mathematics', 'Probability & Statistics', 'Algorithms Analysis']
+            skills: ['Probability Theory',
+                'Statistical Inference',
+                'Linear Algebra',
+                'Real Analysis',
+                'Abstract Algebra',
+                'Discrete Mathematics',
+                'Complex Analysis',
+                'Optimization (basics)']
         }
     ];
 
